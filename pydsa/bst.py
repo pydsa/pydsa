@@ -27,15 +27,3 @@ class BSTNode(object):
             self.inlist.append(root.key)
             self.inorder(root.right)
         return self.inlist
-
-if __name__ == "__main__":
-    bst = BSTNode(50)
-    bst.insert(bst, 30)
-    bst.insert(bst, 20)
-    bst.insert(bst, 40)
-    bst.insert(bst, 70)
-    bst.insert(bst, 60)
-    bst.insert(bst, 80)
-
-    inlist = bst.inorder(bst)
-    print(inlist)
