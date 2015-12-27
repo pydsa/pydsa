@@ -19,6 +19,18 @@ def _merge(L, R):
 
 
 def merge_sort(a):
+    """
+    Sorts the list 'a' using Merge sort algorithm
+
+    Examples
+    ========
+
+    >>> from pydsa import merge_sort
+    >>> a = [3, 4, 2, 1, 12, 9]
+    >>> merge_sort(a)
+    [1, 2, 3, 4, 9, 12]
+
+    """
     l = len(a)
     if l >= 2:
         L = a[0:l//2]

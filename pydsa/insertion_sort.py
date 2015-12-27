@@ -1,4 +1,16 @@
 def insertion_sort(a):
+    """
+    Sorts the list 'a' using insertion sort algorithm
+
+    Examples
+    ========
+
+    >>> from pydsa import insertion_sort
+    >>> a = [3, 4, 2, 1, 12, 9]
+    >>> insertion_sort(a)
+    [1, 2, 3, 4, 9, 12]
+
+    """
     for i in range(1, len(a)):
             element = a[i]
             j = i
