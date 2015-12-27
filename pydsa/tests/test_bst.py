@@ -1,5 +1,4 @@
 from pydsa.bst import *
-import unittest
 
 
 def test_bst():
