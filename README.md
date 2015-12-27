@@ -37,12 +37,12 @@ $ git clone https://github.com/aktech/pydsa.git
 
 You should then install the dependency for running the tests:
 
-* [nose2](https://nose2.readthedocs.org/): 0.5
+* [pytest](http://pytest.org/latest/getting-started.html#getstarted)
 
 To run tests:
 
 ```
-$ nose2
+$ py.test
 ```
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/aktech/pydsa/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
