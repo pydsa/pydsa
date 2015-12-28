@@ -1,19 +1,26 @@
-Welcome to Pydsa's documentation!
+Welcome to PyDSA's documentation!
 =================================
 
-Contents:
+PyDSA is a Python Data Structure and Algorithms Library (α-mode).
+It is currently in it's initial phase of development.
 
 .. toctree::
    :maxdepth: 3
 
+   install.rst
    sorting.rst
+   license.rst
 
 
+Contributing
+============
 
-Indices and tables
-==================
+There are multiple ways you can contibute to Pydsa
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+* Add missing documentation.
+* Add/improve efficiency of algorithms or Data structures.
+* Report bugs.
+* Request/Submit new algorithms.
+
+Use github's Pull request/issues feature for all contributions.
 
