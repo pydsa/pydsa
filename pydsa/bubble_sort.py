@@ -2,9 +2,6 @@ def bubble_sort(a):
     """
     Sorts the list 'a' using Bubble sort algorithm
 
-    Examples
-    ========
-
     >>> from pydsa import bubble_sort
     >>> a = [3, 4, 2, 1, 12, 9]
     >>> bubble_sort(a)

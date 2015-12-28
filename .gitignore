@@ -39,5 +39,5 @@ sample.tex
 .cache
 
 # Built doc files (cd doc; make html)
-doc/build/
-doc/sphinx/
+docs/build/
+docs/sphinx/
