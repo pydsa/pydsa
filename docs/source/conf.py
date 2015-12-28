@@ -48,8 +48,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'pydsa'
-copyright = u'2015, Amit Kumar'
+project = 'Pydsa'
+copyright = '2015, Amit Kumar'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -220,8 +220,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'pydsa.tex', u'pydsa Documentation',
-   u'Amit Kumar', 'manual'),
+  ('index', 'pydsa.tex', 'Pydsa Documentation',
+   'Amit Kumar', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -250,8 +250,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'pydsa', u'pydsa Documentation',
-     [u'Amit Kumar'], 1)
+    ('index', 'pydsa', 'Pydsa Documentation',
+     ['Amit Kumar'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -264,8 +264,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'pydsa', u'pydsa Documentation',
-   u'Amit Kumar', 'pydsa', 'One line description of project.',
+  ('index', 'pydsa', 'Pydsa Documentation',
+   'Amit Kumar', 'pydsa', 'One line description of project.',
    'Miscellaneous'),
 ]
 
