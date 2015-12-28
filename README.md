@@ -5,8 +5,15 @@
 
 Python Data Structure and Algorithms Library (α-mode)
 
-## Usage
+## Installation
 
+To install Pydsa, simply run:
+
+```python
+$ python setup.py install
+```
+
+## Usage
 
 ```python
 In [1]: from pydsa import quick_sort
@@ -44,5 +51,16 @@ To run tests:
 ```
 $ py.test
 ```
+
+## Contributing
+
+There are multiple ways you can contibute to Pydsa
+
+* Add missing documentation.
+* Add/improve efficiency of algorithms or Data structures.
+* Report bugs.
+* Request/Submit new algorithms.
+
+Use github's Pull request/issues feature for all contributions.
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/aktech/pydsa/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
