@@ -9,13 +9,13 @@ Sorting is a process of arranging items in ascending or descending order. This p
 Insertion Sort
 --------------
 
-.. autofunction:: insertion_sort.insertion_sort
+.. autofunction:: pydsa.insertion_sort.insertion_sort
 
 
 Selection Sort
 --------------
 
-.. autofunction:: selection_sort.selection_sort
+.. autofunction:: pydsa.selection_sort
 
 
 Bubble Sort
