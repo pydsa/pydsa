@@ -1,7 +1,7 @@
 # PyDSA
 
 [![Build Status](https://travis-ci.org/aktech/pydsa.svg?branch=master)](https://travis-ci.org/aktech/pydsa)
-[![Join the chat at https://gitter.im/aktech/pydsa](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/aktech/pydsa?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/pydsa/pydsa](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/pydsa/pydsa?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Documentation Status](https://readthedocs.org/projects/pydsa/badge/?version=latest)](http://pydsa.readthedocs.org/en/latest/?badge=latest)
 
 Mailing List: https://groups.google.com/forum/#!forum/pydsa
@@ -10,7 +10,7 @@ Python Data Structure and Algorithms Library (α-mode)
 
 ## Installation
 
-To install Pydsa, simply run:
+To install PyDSA, simply run:
 
 ```python
 $ python setup.py install
@@ -42,7 +42,7 @@ Out[3]: [1, 2, 3, 3, 4, 5, 5, 7, 8, 9]
 The source code is managed with the Git version control system. To get the latest development version and access to the full repository, clone the repository from Github with:
 
 ```
-$ git clone https://github.com/aktech/pydsa.git
+$ git clone https://github.com/pydsa/pydsa.git
 ```
 
 You should then install the dependency for running the tests:
