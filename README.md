@@ -67,3 +67,7 @@ There are multiple ways you can contibute to Pydsa
 Use github's Pull request/issues feature for all contributions.
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/aktech/pydsa/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/pydsa/pydsa/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
