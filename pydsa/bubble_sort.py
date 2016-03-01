@@ -1,3 +1,6 @@
+# Bubble Sort
+# Complexity: O(n^2)
+
 def bubble_sort(a):
     """
     Sorts the list 'a' using Bubble sort algorithm
