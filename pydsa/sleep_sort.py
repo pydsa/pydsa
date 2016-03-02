@@ -21,5 +21,5 @@ def sleep_sort(a):
     for v in a:
         if mx < v: mx = v
         Timer(v, add1, [v]).start()
-    sleep(mx+1)
+    sleep(mx + 1)
     return sleep_sort.result
