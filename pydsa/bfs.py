@@ -8,39 +8,36 @@ def bfs(graph,start):
 	Search Algorithm. 
 
 	>>> from pydsa import bfs
-	>>> a = [[1,2],[2],[0,3],[3]]
-	>>> bfs(a,2)
-	[2, 0, 3, 1]
+	>>> graph = {'A': set(['B', 'C']), 'B': set(['A', 'D', 'E']), 'C': set(['A', 'F']), 'D': set(['B']), 'E': set(['B', 'F']), 'F': set(['C', 'E'])}
+	>>> bfs(graph,'A')
+	['A', 'C', 'B', 'F', 'E', 'D']
 
 	"""
 
-	# find number of nodes in the graph
-	n = len(graph)
-
 	# mark every node unvisited
-	visited = [False for i in range(1,n+1)]
-	queue = []
+	visited , queue = {}, []
+	for i in graph.keys():
+		visited[i] = 0
 
 	# final list of traversed nodes in the order
 	final = []
 
 	# mark given node visited and enqueue
-	visited[start] = True 
+	visited[start] = 1
 	queue.append(start)
 
 	while queue:
 
 		# dequeue a node and append in the final list
-		start = queue[0]
+		start = queue.pop(0)
 		final.append(start)
-		queue.pop(0)
 
 		# check for all adjacent vertices of start vertex
 		# if it is not visited, then mark and 
 		# enqueue
 		for i in graph[start]:
 			if not visited[i]:
-				visited[i] = True
+				visited[i] = 1
 				queue.append(i)
 
 	# return the final ordered list
