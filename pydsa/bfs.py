@@ -10,7 +10,7 @@ def bfs(graph,start):
 	>>> from pydsa import bfs
 	>>> a = [[1,2],[2],[0,3],[3]]
 	>>> bfs(a,2)
-	[2,0,3,1]
+	[2, 0, 3, 1]
 
 	"""
 
