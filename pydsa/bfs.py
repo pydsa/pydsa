@@ -1,21 +1,19 @@
-"""
+# Breadth First Search
+# Complexity: O(V+E)
 
-	Breadth-first search (BFS) is an algorithm 
-	for traversing or searching tree or graph 
-	data structures. It starts at the tree root 
-	(or some arbitrary node of a graph, sometimes 
-	referred to as a 'search key'[1]) and explores 
-	the neighbor nodes first, before moving to 
-	the next level neighbors.
+def bfs(graph,start):
 
-	To find the Breadth First Search traversal
-	order of a graph given in the form of 
-	Adjacency Lists.
-	Graph is traversed from the vertex k.
+	"""
+	Traverses the graph 'graph' using Breadth First
+	Search Algorithm. 
 
-"""
+	>>> from pydsa import bfs
+	>>> a = [[1,2],[2],[0,3],[3]]
+	>>> bfs(a,2)
+	[2,0,3,1]
 
-def bfs(graph,k):
+	"""
+
 	# find number of nodes in the graph
 	n = len(graph)
 
@@ -27,20 +25,20 @@ def bfs(graph,k):
 	final = []
 
 	# mark given node visited and enqueue
-	visited[k] = True 
-	queue.append(k)
+	visited[start] = True 
+	queue.append(start)
 
 	while queue:
 
 		# dequeue a node and append in the final list
-		k = queue[0]
-		final.append(k)
+		start = queue[0]
+		final.append(start)
 		queue.pop(0)
 
-		# check for all adjacent vertices of k
+		# check for all adjacent vertices of start vertex
 		# if it is not visited, then mark and 
 		# enqueue
-		for i in graph[k]:
+		for i in graph[start]:
 			if not visited[i]:
 				visited[i] = True
 				queue.append(i)
