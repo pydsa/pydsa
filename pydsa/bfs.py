@@ -15,7 +15,7 @@
 
 """
 
-def bsf(graph,k):
+def bfs(graph,k):
 	# find number of nodes in the graph
 	n = len(graph)
 
@@ -23,7 +23,7 @@ def bsf(graph,k):
 	visited = [False for i in range(1,n+1)]
 	queue = []
 
-	# final array of traversed nodes in the order
+	# final list of traversed nodes in the order
 	final = []
 
 	# mark given node visited and enqueue
@@ -32,7 +32,7 @@ def bsf(graph,k):
 
 	while queue:
 
-		# dequeue a node and append in the final array
+		# dequeue a node and append in the final list
 		k = queue[0]
 		final.append(k)
 		queue.pop(0)
@@ -45,4 +45,5 @@ def bsf(graph,k):
 				visited[i] = True
 				queue.append(i)
 
+	# return the final ordered list
 	return final
