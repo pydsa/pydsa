@@ -34,3 +34,8 @@ Quick Sort
 ----------
 
 .. autofunction:: pydsa.quick_sort
+
+Sleep Sort
+----------
+
+.. autofunction:: pydsa.sleep_sort
