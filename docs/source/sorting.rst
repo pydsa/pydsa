@@ -39,3 +39,8 @@ Sleep Sort
 ----------
 
 .. autofunction:: pydsa.sleep_sort
+
+Heap Sort
+----------
+
+.. autofunction:: pydsa.heap_sort
