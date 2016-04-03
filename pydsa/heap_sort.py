@@ -8,9 +8,9 @@
     Heap sort takes place in two steps. In first step, array is
     transformed into a heap.
     In second step, heap is continously reduced to a sorted array.
-	"""
+    """
 def heap_sort(list_item):
-	"""
+    """
     Heap Sort
     Time Complexity of Solution:
     Best - O(nlogn)
@@ -20,7 +20,7 @@ def heap_sort(list_item):
     Heap sort takes place in two steps. In first step, array is
     transformed into a heap.
     In second step, heap is continously reduced to a sorted array.
-	"""
+    """
     end = len(list_item)
     start = end // 2 - 1 # use // instead of /
     for i in range(start, -1, -1):
@@ -30,8 +30,8 @@ def heap_sort(list_item):
         heapify(list_item, i, 0)
 
 def heapify(list_item, end,i):
-    left = 2 * i + 1		# Left Child
-    right = 2 * (i + 1)		# Right Child
+    left = 2 * i + 1        # Left Child
+    right = 2 * (i + 1)     # Right Child
     max = i
     if left < end and list_item[i] < list_item[left]:
         max = left
