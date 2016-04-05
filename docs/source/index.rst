@@ -8,6 +8,7 @@ It is currently in it's initial phase of development.
    :maxdepth: 3
 
    install.rst
+   searching.rst
    sorting.rst
    license.rst
 
