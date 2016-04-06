@@ -7,3 +7,5 @@ from .quick_sort import quick_sort
 from .sleep_sort import sleep_sort
 from .bfs import bfs
 from .binary_search import binary_search
+from .linear_search import linear_search
+from .queue import *

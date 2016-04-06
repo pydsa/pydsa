@@ -10,3 +10,9 @@ Binary Search
 --------------
 
 .. autofunction:: pydsa.binary_search
+
+
+Linear Search
+-------------
+
+.. autofunction:: pydsa.linear_search
