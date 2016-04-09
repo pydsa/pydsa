@@ -1,16 +1,12 @@
-from pydsa.queue import Queue
+from pydsa.queue import queue
 
 
 def test_queue():
-    def __init__self(self, size):
-        self.queue = Queue()
-        queue.size = 5
-    def test_enqueue(self):
-        self.queue.enqueue(3)
-        self.queue.enqueue(7)
-        self.queue.enqueue(13)
-        self.queue.enqueue(9)
-        self.assertEqual(size() == 3)
-    def test_dequeue(self):
-        self.dequeue()
-        self.assertTrue(size() == 2)
+    q = queue()
+    q.enqueue(5)
+    q.enqueue(9)
+    q.enqueue(12)
+    q.enqueue(20)
+    assert q.dequeue() == 5
+    assert q.dequeue() == 9
+    assert q.size() == 2
