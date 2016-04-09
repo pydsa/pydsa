@@ -7,7 +7,6 @@ def linear_search(List, item):
     >>> linear_search(List, item)
     2
     """
-    
     index = len(List)
     for i in range(0, index):
         if List[i] == item:

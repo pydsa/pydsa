@@ -1,4 +1,4 @@
-from pydsa.queue import *
+from pydsa.queue import Queue
 
 
 def test_queue():
