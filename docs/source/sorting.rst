@@ -39,3 +39,8 @@ Sleep Sort
 ----------
 
 .. autofunction:: pydsa.sleep_sort
+
+Counting Sort
+----------
+
+.. autofunction:: pydsa.counting_sort
