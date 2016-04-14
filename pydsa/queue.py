@@ -1,5 +1,9 @@
 class queue(object):
     """
+    A queue is a container of objects (a linear collection)
+    that are inserted and removed according to the
+    first-in first-out (FIFO) principle.
+
     >>> from pydsa import queue
     >>> q = queue()
     >>> q.enqueue(5)
