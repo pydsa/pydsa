@@ -1,4 +1,4 @@
-from pydsa.bst import *
+from pydsa.bst import BSTNode
 
 
 def test_bst():

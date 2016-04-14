@@ -1,4 +1,4 @@
-from pydsa.selection_sort import *
+from pydsa.selection_sort import selection_sort
 from random import randint
 
 
