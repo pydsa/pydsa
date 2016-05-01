@@ -1,4 +1,4 @@
-from pydsa.quick_sort import *
+from pydsa.quick_sort import quick_sort
 from random import randint
 
 

@@ -44,3 +44,8 @@ Heap Sort
 ----------
 
 .. autofunction:: pydsa.heap_sort
+
+Counting Sort
+----------
+
+.. autofunction:: pydsa.counting_sort

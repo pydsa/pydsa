@@ -8,6 +8,11 @@ Mailing List: https://groups.google.com/forum/#!forum/pydsa
 
 Python Data Structure and Algorithms Library (α-mode)
 
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Development Environment](#development-environment)
+4. [Contributing](#contributing)
+
 ## Installation
 
 To install PyDSA, simply run:
@@ -65,6 +70,12 @@ There are multiple ways you can contibute to Pydsa
 * Request/Submit new algorithms.
 
 Use github's Pull request/issues feature for all contributions.
+
+* [Contributing to PyDSA](https://github.com/pydsa/pydsa/wiki/Contributing-to-PyDSA)
+* [Writing and Running Tests in PyDSA](https://github.com/pydsa/pydsa/wiki/Writing-and-Running-Tests-in-PyDSA)
+* [Project Ideas](https://github.com/pydsa/pydsa/wiki/Project-Ideas)
+* [RGSoC 2016 Student Instructions](https://github.com/pydsa/pydsa/wiki/RGSoC-2016-Student-Instructions)
+
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/pydsa/pydsa/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
