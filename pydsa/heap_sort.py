@@ -1,25 +1,20 @@
-"""
-    Heap Sort
-    Time Complexity of Solution:
-    Best - O(nlogn)
-    Average - O(nlog)
-    Worst - O(nlog)
-    Approach:
-    Heap sort takes place in two steps. In first step, array is
-    transformed into a heap.
-    In second step, heap is continously reduced to a sorted array.
-    """
+# Heap Sort
+# Complexity: O(nlog(n))
+
+
 def heap_sort(list_item):
     """
     Heap Sort
     Time Complexity of Solution:
-    Best - O(nlogn)
-    Average - O(nlog)
-    Worst - O(nlog)
+    Best - O(nlog(n))
+    Average - O(nlog(n))
+    Worst - O(nlog(n))
+
     Approach:
     Heap sort takes place in two steps. In first step, array is
     transformed into a heap.
     In second step, heap is continously reduced to a sorted array.
+
     """
     end = len(list_item)
     start = end // 2 - 1 # use // instead of /
