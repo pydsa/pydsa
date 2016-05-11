@@ -14,10 +14,10 @@ def quick_sort(a, start=0, end=None):
     """
     if end is None:
         end = len(a) - 1
-    if(start < end):
+    if (start < end):
         pIndex = _partition(a, start, end)
-        quick_sort(a, start, pIndex-1)
-        quick_sort(a, pIndex+1, end)
+        quick_sort(a, start, pIndex - 1)
+        quick_sort(a, pIndex + 1, end)
     return a
 
 
