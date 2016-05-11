@@ -41,3 +41,6 @@ sample.tex
 # Built doc files (cd doc; make html)
 docs/build/
 docs/sphinx/
+
+# Pycharm Generated files
+.idea/
