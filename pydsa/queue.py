@@ -12,6 +12,7 @@ class queue(object):
     >>> q.dequeue()
     5
     """
+
     def __init__(self):
         self.List = []
 

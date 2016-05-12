@@ -16,6 +16,7 @@ class Stack(object):
     >>> s.pop()
     19
     """
+
     def __init__(self):
         self.List = []
 

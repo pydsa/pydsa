@@ -30,7 +30,7 @@ def merge_sort(a):
     """
     l = len(a)
     if l >= 2:
-        L = a[0:l//2]
-        R = a[l//2:]
+        L = a[0:l // 2]
+        R = a[l // 2:]
         a = _merge(merge_sort(L), merge_sort(R))
     return a
