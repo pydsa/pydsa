@@ -14,3 +14,4 @@ from .stack import Stack
 from .radix_sort import radix_sort
 from .binary_tree import BTNode
 from .gnome_sort import gnome_sort
+from .mod_inverse import mod_inverse
