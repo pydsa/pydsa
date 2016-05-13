@@ -44,3 +44,8 @@ Counting Sort
 ----------
 
 .. autofunction:: pydsa.counting_sort
+
+Radix Sort
+----------
+
+.. autofunction:: pydsa.radix_sort
