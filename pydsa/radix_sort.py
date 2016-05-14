@@ -29,7 +29,7 @@ def radix_sort(a):
     # of passing digit number, exp is passed. exp is BASE^i
     # where i is current digit number
     exp = 1
-    while max_element//exp > 0:
+    while max_element // exp > 0:
         _counting_sort(a, exp, n)
         exp *= BASE
 
@@ -53,9 +53,9 @@ def _counting_sort(a, exp, n):
     # Change count[i] so that count[i] now contains actual
     # position of this digit in output array.
     for i in range(1, BASE):
-        count[i] += count[i-1]
+        count[i] += count[i - 1]
 
-    for i in range(n-1, -1, -1):
+    for i in range(n - 1, -1, -1):
         index = (a[i] // exp)
         output[count[(index) % BASE] - 1] = a[i]
         count[(index) % BASE] -= 1
