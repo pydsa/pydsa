@@ -8,6 +8,7 @@ python:
 
 # command to install dependencies
 install: pip install -U pytest
+install: pip install -U autopep8
 
 # command to run tests
 script: py.test
