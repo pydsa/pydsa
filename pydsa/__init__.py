@@ -12,4 +12,3 @@ from .queue import queue
 from .counting_sort import counting_sort
 from .stack import Stack
 from .radix_sort import radix_sort
-from .binary_tree import BTNode
