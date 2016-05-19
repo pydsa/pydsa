@@ -6,3 +6,4 @@ def test_heap_sort():
     b = sorted(a)
     heap_sort(a)
     assert a == b
+
