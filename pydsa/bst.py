@@ -6,6 +6,7 @@ class BSTNode(object):
     """
     Class to create a Binary Search Tree Node.
     """
+
     def __init__(self, key, left=None, right=None):
         self.left = left
         self.right = right

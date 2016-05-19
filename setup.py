@@ -8,4 +8,5 @@ setup(name='pydsa',
       license='BSD',
       packages=['pydsa'],
       zip_safe=False,
+      install_requires=['autopep8'],
       )

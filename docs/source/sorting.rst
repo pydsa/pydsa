@@ -49,3 +49,13 @@ Counting Sort
 ----------
 
 .. autofunction:: pydsa.counting_sort
+
+Radix Sort
+----------
+
+.. autofunction:: pydsa.radix_sort
+
+Gnome Sort
+----------
+
+.. autofunction:: pydsa.gnome_sort
