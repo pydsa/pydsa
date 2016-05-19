@@ -1,4 +1,4 @@
-from pydsa.radix_sort import *
+from pydsa.radix_sort import radix_sort
 from random import randint
 
 
