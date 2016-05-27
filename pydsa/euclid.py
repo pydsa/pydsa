@@ -24,7 +24,7 @@ def extended_euclid(a, b):
     """
     xx, y, yy, x = 0, 0, 1, 1
     while b:
-        q = a/b
+        q = a//b
         a, b = b, a%b
         xx, x = x-q*xx, xx
         yy, y = y-q*yy, yy
