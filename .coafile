@@ -1,0 +1,38 @@
+[Default]
+files = pydsa/**/*.py
+
+max_line_length = 80
+use_spaces = True
+no_orig = yeah
+
+[python]
+# Patches may conflict with autopep8 so putting them in own section so they
+# will be executed sequentially; also we need the LineLengthBear to double
+# check the line length because PEP8Bear sometimes isn't able to correct the
+# linelength.
+bears = SpaceConsistencyBear, PyUnusedCodeBear
+default_actions =
+    SpaceConsistencyBear: ApplyPatchAction,
+    PyUnusedCodeBear: ApplyPatchAction
+
+[pylint]
+enabled = False
+bears = PyLintBear
+pylint_disable = missing-docstring,
+                 C0103 # simple variable names
+                 C0411 # sorting imports
+
+
+[autopep8]
+bears = PEP8Bear
+default_actions = PEP8Bear: ApplyPatchAction
+
+[imports]
+enabled = False
+bears = PyImportSortBear
+default_actions = PyImportSortBear: ShowPatchAction
+
+[invalidlinks]
+enabled = False
+files = docs/source/*.rst
+bears = InvalidLinkBear
