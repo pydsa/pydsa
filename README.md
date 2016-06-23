@@ -11,6 +11,7 @@ Python Data Structure and Algorithms Library (α-mode)
 1. [Installation](#installation)
 2. [Usage](#usage)
 3. [Development Environment](#development-environment)
+    * [Code Analysis](#code-analysis)
 4. [Contributing](#contributing)
 
 ## Installation
@@ -50,14 +51,35 @@ The source code is managed with the Git version control system. To get the lates
 $ git clone https://github.com/pydsa/pydsa.git
 ```
 
-You should then install the dependency for running the tests:
+You should then install the development requirements:
 
-* [pytest](http://pytest.org/latest/getting-started.html#getstarted)
+```
+pip install -r requirements.txt
+```
 
 To run tests:
 
 ```
 $ py.test
+```
+
+### Code Analysis
+
+[`coala`](https://github.com/coala-analyzer/coala) is used to lint and format
+code.
+
+To analyze code using `coala`:
+
+```
+$ coala
+```
+
+There also other checks that you can run with coala:
+
+```
+$ coala pylint # checks the whole codebase against pylint.
+$ coala invalidlinks # checks docs for invalid links.
+$ coala imports # sort imports
 ```
 
 ## Contributing
