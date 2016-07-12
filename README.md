@@ -18,7 +18,7 @@ Python Data Structure and Algorithms Library (α-mode)
 
 To install PyDSA, simply run:
 
-```python
+```shell
 $ python setup.py install
 ```
 
