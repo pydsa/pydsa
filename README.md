@@ -97,7 +97,3 @@ Use github's Pull request/issues feature for all contributions.
 * [Writing and Running Tests in PyDSA](https://github.com/pydsa/pydsa/wiki/Writing-and-Running-Tests-in-PyDSA)
 * [Project Ideas](https://github.com/pydsa/pydsa/wiki/Project-Ideas)
 * [RGSoC 2016 Student Instructions](https://github.com/pydsa/pydsa/wiki/RGSoC-2016-Student-Instructions)
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/pydsa/pydsa/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
