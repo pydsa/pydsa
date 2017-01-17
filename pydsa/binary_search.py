@@ -19,9 +19,9 @@ def binary_search(items_list, item,
 
     Binary Search
     Time Complexity:
-        Average - O(logn)
+        Average - O(log(n))
         Best - O(1)
-        Worst - O(1)
+        Worst - O(log(n))
 
     Return value:   Index where element exists
                     -1 if element not found
