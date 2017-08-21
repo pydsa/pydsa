@@ -1,5 +1,6 @@
-from pydsa.quick_sort import quick_sort
 from random import randint
+
+from pydsa.sorting.quick_sort import quick_sort
 
 
 def test_quick_sort():

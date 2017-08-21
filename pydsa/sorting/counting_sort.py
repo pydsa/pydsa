@@ -7,7 +7,7 @@ def counting_sort(array, maxval):
     """
     Sorts the list 'array' using counting sort
 
-    >>> from pydsa import counting_sort
+    >>> from pydsa.sorting.counting_sort import counting_sort
     >>> a = [5, 6, 1, 9, 3]
     >>> counting_sort(a, 9)
     [1, 3, 5, 6, 9]

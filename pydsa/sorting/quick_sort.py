@@ -6,7 +6,7 @@ def quick_sort(a, start=0, end=None):
     """
     Sorts the list 'a' using Quick sort algorithm
 
-    >>> from pydsa import quick_sort
+    >>> from pydsa.sorting.quick_sort import quick_sort
     >>> a = [3, 4, 2, 1, 12, 9]
     >>> quick_sort(a)
     [1, 2, 3, 4, 9, 12]

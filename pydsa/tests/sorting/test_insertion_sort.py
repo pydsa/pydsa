@@ -1,5 +1,6 @@
-from pydsa.insertion_sort import insertion_sort
 from random import randint
+
+from pydsa.sorting.insertion_sort import insertion_sort
 
 
 def test_insertion_sort():

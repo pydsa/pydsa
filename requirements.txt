@@ -1,2 +1,0 @@
-coala-bears==0.2.1
-pytest

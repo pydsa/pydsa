@@ -1,5 +1,6 @@
-from pydsa.sleep_sort import sleep_sort
 from random import randint
+
+from pydsa.sorting.sleep_sort import sleep_sort
 
 
 def test_sleep_sort():

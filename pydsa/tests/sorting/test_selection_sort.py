@@ -1,5 +1,6 @@
-from pydsa.selection_sort import selection_sort
 from random import randint
+
+from pydsa.sorting.selection_sort import selection_sort
 
 
 def test_selection_sort():

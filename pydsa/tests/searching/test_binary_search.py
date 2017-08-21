@@ -1,5 +1,6 @@
-from pydsa.binary_search import binary_search
 from random import randint
+
+from pydsa.searching.binary_search import binary_search
 
 
 def test_binary_search():

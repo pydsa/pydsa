@@ -22,7 +22,7 @@ def merge_sort(a):
     """
     Sorts the list 'a' using Merge sort algorithm
 
-    >>> from pydsa import merge_sort
+    >>> from pydsa.sorting.merge_sort import merge_sort
     >>> a = [3, 4, 2, 1, 12, 9]
     >>> merge_sort(a)
     [1, 2, 3, 4, 9, 12]

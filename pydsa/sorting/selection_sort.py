@@ -6,7 +6,7 @@ def selection_sort(a):
     """
     Sorts the list 'a' using Selection sort algorithm
 
-    >>> from pydsa import selection_sort
+    >>> from pydsa.sorting.selection_sort import selection_sort
     >>> a = [3, 4, 2, 1, 12, 9]
     >>> selection_sort(a)
     [1, 2, 3, 4, 9, 12]

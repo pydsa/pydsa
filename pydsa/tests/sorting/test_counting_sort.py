@@ -1,5 +1,6 @@
-from pydsa.counting_sort import counting_sort
 from random import randint
+
+from pydsa.sorting.counting_sort import counting_sort
 
 
 def test_counting_sort():

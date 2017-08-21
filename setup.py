@@ -9,4 +9,4 @@ setup(name='pydsa',
       packages=['pydsa'],
       zip_safe=False,
       install_requires=[],
-      )
+)

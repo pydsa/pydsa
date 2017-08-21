@@ -10,7 +10,7 @@ def sleep_sort(a):
     """
     Sorts the list 'a' using Sleep sort algorithm
 
-    >>> from pydsa import sleep_sort
+    >>> from pydsa.sorting.sleep_sort import sleep_sort
     >>> a = [3, 4, 2]
     >>> sleep_sort(a)
     [2, 3, 4]

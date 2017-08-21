@@ -1,5 +1,6 @@
-from pydsa.radix_sort import radix_sort
 from random import randint
+
+from pydsa.sorting.radix_sort import radix_sort
 
 
 def test_radix_sort():

@@ -15,7 +15,7 @@ def radix_sort(a):
     representing numbers. This implementation is for decimal system i.e. base
     is taken to be 10.
 
-    >>> from pydsa import radix_sort
+    >>> from pydsa.sorting.radix_sort import radix_sort
     >>> a = [708, 4567, 3, 45, 911, 123, 57, 37]
     >>> radix_sort(a)
     [3, 37, 45, 57, 123, 708, 911, 4567]
