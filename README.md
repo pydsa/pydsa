@@ -63,25 +63,6 @@ To run tests:
 $ py.test
 ```
 
-### Code Analysis
-
-[`coala`](https://github.com/coala-analyzer/coala) is used to lint and format
-code.
-
-To analyze code using `coala`:
-
-```
-$ coala
-```
-
-There also other checks that you can run with coala:
-
-```
-$ coala pylint # checks the whole codebase against pylint.
-$ coala invalidlinks # checks docs for invalid links.
-$ coala imports # sort imports
-```
-
 ## Contributing
 
 There are multiple ways you can contibute to Pydsa
