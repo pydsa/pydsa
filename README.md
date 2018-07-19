@@ -11,7 +11,6 @@ Python Data Structure and Algorithms Library (α-mode)
 1. [Installation](#installation)
 2. [Usage](#usage)
 3. [Development Environment](#development-environment)
-    * [Code Analysis](#code-analysis)
 4. [Contributing](#contributing)
 
 ## Installation
@@ -53,8 +52,8 @@ $ git clone https://github.com/pydsa/pydsa.git
 
 You should then install the development requirements:
 
-```
-pip install -r requirements.txt
+```shell
+$ pip install -r requirements-dev.txt
 ```
 
 To run tests:
@@ -65,14 +64,16 @@ $ py.test
 
 ## Contributing
 
-There are multiple ways you can contibute to Pydsa
+There are multiple ways you can contribute to PyDSA. For example, you can:
 
 * Add missing documentation.
-* Add/improve efficiency of algorithms or Data structures.
+* Add/improve efficiency of algorithms or data structures.
 * Report bugs.
-* Request/Submit new algorithms.
+* Request/submit new algorithms.
 
-Use github's Pull request/issues feature for all contributions.
+Please use Github's pull request/issues feature for all contributions and take a look at the [PyDSA wiki](https://github.com/pydsa/pydsa/wiki).
+
+**Wiki Quick Links**  
 
 * [Contributing to PyDSA](https://github.com/pydsa/pydsa/wiki/Contributing-to-PyDSA)
 * [Writing and Running Tests in PyDSA](https://github.com/pydsa/pydsa/wiki/Writing-and-Running-Tests-in-PyDSA)
